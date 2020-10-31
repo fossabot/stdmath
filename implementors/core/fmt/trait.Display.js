@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["stdmath"] = [{"text":"impl&lt;T, R, F&gt; Display for Sigma&lt;T, R, F&gt; <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;T: Step,<br>&nbsp;&nbsp;&nbsp;&nbsp;R: Sum + Display,<br>&nbsp;&nbsp;&nbsp;&nbsp;F: Fn(T) -&gt; R,&nbsp;</span>","synthetic":false,"types":[]},{"text":"impl&lt;T, R, F&gt; Display for Product&lt;T, R, F&gt; <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;T: Step,<br>&nbsp;&nbsp;&nbsp;&nbsp;R: Product + Display,<br>&nbsp;&nbsp;&nbsp;&nbsp;F: Fn(T) -&gt; R,&nbsp;</span>","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
